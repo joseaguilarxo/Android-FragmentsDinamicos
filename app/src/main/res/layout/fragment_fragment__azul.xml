@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context="com.joseaguilar.a2_fragments_dinamicos_con_onclicklistener.Fragments.Fragment_Azul">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Azul"
+        android:onClick="onClick"
+        android:id="@+id/btnfragazul"/>
+
+
+</LinearLayout>
